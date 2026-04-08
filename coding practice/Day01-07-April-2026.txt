@@ -1,3 +1,47 @@
 
 i
 I have practiced connecting the surver and how to push the code to github
+   mkdir linux_practice
+     pwd
+     cd linux_practice
+     pwd
+     touch file.txt
+     vi "Linux Practice"
+     cat "Linux Practice"
+     cat file.txt
+     cd file.txt
+     vi file.txt
+     cat file.txt
+     cp file.txt "Linux Practice"
+     cat file.txt
+     touch text1.txt
+     vi text1.txt
+     cat text1.txt
+     cp file.txt text1.txt
+     cat file.txt
+     cat text1.txt
+     cat "linux Practice"
+     ls -l
+     head -n 1 file.txt
+     tail -n 1 file.txt
+     head file.txt
+     head -n 5 file.txt
+     mv text1.txt file1.txt
+     ls -l
+     ln -s file1.txt link.txt
+     find . -name "*.txt"
+     chmod 761 file.txt
+     ls -l
+     chmod 777 file.txt
+     ls -l
+     ls -l file.txt
+     chmod 777 file1.txt
+     chmod 777 file1.txt
+     ls -l file1.txt
+     pwd
+     cd ..
+     rm -r "Linux Practice"
+     cd linux_practice
+     rm -r file.txt
+     ls -l
+    history
