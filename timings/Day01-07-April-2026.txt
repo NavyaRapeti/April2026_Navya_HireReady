@@ -1,4 +1,6 @@
 
+
 i
 I have learned about the devops ,the roadmap and all about devops
+Practiced the linux commands
 
