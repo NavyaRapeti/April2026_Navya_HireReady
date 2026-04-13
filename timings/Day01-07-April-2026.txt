@@ -1,0 +1,5 @@
+Day01 Daily Update
+I have learned about the devops ,the roadmap and all about devops
+Learned creating accounts in github and AWS
+Learned how to use gitbash for Linux practice 
+learned git work flow 
