@@ -1,81 +1,37 @@
-==============================
-Revised Fundamental Linux Commands
-==============================
-pwd
-ls
-ls -l
-ls -la
-ls -h
-cd documents
-cd ..
-cd Downloads/
-cd Documents/
-clear
-history
-head
-man cp
-mkdir devopspractice
-mkdir devopspractice1
-mkdir timings
-mkdir "coding practice"
-touch devopspractice
-mv timings/Day01-06-Dec-2025.txt timings/Day01-07-April-2026.txt
 
-==============================
-Learned & Practiced Linux File Permission Commands
-==============================
-(ls -l used to view file permissions)
+# Day 02 — Services & Tags
 
-ls -l
-ls -la
+## 🔹 Ansible — Install & Enable Nginx
 
-==============================
-Practiced Debugging Errors using ChatGPT
-==============================
-cd navya.txt
-pwd devopspractice
-ls n-l
-git push
-git push
-git push
-git ls-remote https://github.com/......
-git ls-remote https://github.com/April2026_Navya_HireReady
-git ls-remote https://github.com/NavyaR..../April2026_Navya_HireReady
-git status
-git config --global --list
+---
+- name: Install and start Nginx on HireReady
+  hosts: all
+  become: yes
 
-==============================
-Learned to Clone a GitHub Repository using Git Bash
-==============================
-git config --global user.name "........."
-git config --global user.email "........"
-git clone https://github.com/Nav.../April2026_Navya_HireReady.git
-git clone https://github.com/NavyaRapeti/April2026_Navya_HireReady
-git remote -v
-cd April2026_Navya_HireReady
+  tasks:
+    - name: Install nginx
+      yum:        
+		name: nginx
+        state: present
 
-==============================
-Practiced Complete Git Workflow (clone → branch → commit → push)
-==============================
-git init
-git add .
-git add README.md
-git commit -m "Renamed Day01 file"
-git commit -m "first commit"
-git commit -m "Day01 updates"
-git branch -M main
-git branch -a
-git branch Day2
-git checkout -b Day01 origin/Day01
-git checkout -b Day02
-git fetch origin
-git pull
-git push
-git push -u origin main
-git remote add origin git@github.com:NavyaRapeti/April2026_Navya_HireReady.git
-echo "# April2026_Navya_HireReady" >> README.md
+    - name: Enable nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
 
-==============================
-Created AWS Account, Launched EC2 & Logged into Server
-==============================
-(Performed via AWS Console & SSH login — not part of local command history)
+
+## 🔹 Ansible — Install & Enable Nginx
+
+---
+-name: Install and start Nginx on HireReady
+ hosts: all
+ become: yes
+
+ tasks
+   -name: Install nginx
+    yum:
+      name: nginx
+      state: started
+      enabled: yes
+
