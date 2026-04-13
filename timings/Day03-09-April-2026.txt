@@ -1,0 +1,5 @@
+Practiced essential Linux commands including file navigation, file operations, and directory management
+Updated and managed Day03 work on GitHub using proper Git workflow (branching, committing, and pushing changes)
+Created and worked with feature branches to maintain organized version control
+Resolved Git issues and merge conflicts with the help of ChatGPT guidance and troubleshooting steps
+Improved understanding of Git workflow and collaborative development process through hands-on practice
