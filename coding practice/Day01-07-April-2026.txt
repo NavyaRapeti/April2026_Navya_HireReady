@@ -24,4 +24,8 @@ Rewrite this YAML manually:
     - name: Install nginx
       yum:
         name: nginx
+<<<<<<< Updated upstream
         state: present
+=======
+        state: present
+>>>>>>> Stashed changes
