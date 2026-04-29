@@ -1,6 +1,15 @@
-
-
-i
+<<<<<<< Updated upstream
+Day01 Daily Update
 I have learned about the devops ,the roadmap and all about devops
-Practiced the linux commands
+Learned creating accounts in github and AWS
+Learned how to use gitbash for Linux practice 
+learned git work flow 
+=======
 
+I have learned about the devops ,the roadmap and all about devops
+Practiced the linux commands using gitbash
+learned how to create AWS and github accounts 
+practiced coding for 30 mins 
+
+
+>>>>>>> Stashed changes
